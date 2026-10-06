@@ -3,7 +3,7 @@
 AI-powered accessibility checker. Paste HTML, choose a WCAG target, and get
 each issue explained in plain English with a suggested fix.
 
-> 🚧 In active development (Oct–Nov 2026). See the [project board](#) for progress.
+> 🚧 In active development (Oct–Nov 2026). See the [project board](https://github.com/users/paulcfarndell/projects/1/views/1?layout_template=board) for progress.
 
 ## Why
 Automated tools report *what* fails, but not *why* it matters or *how* to fix it.
