@@ -11,11 +11,11 @@ export const router = createBrowserRouter([
         path: '/',
         element: <RootLayout />,
         children: [
-            { index: true, element: <ScanPage /> },
-            { path: 'results', element: <ResultsPage /> },
-            { path: 'results/:issueId', element: <IssuePage /> },
-            { path: 'about', element: <AboutPage /> },
-            { path: '*', element: <NotFoundPage /> }
+            { index: true, element: <ScanPage />, handle: { title: 'Check your HTML'} },
+            { path: 'results', element: <ResultsPage />, handle: { title: 'Results'} },
+            { path: 'results/:issueId', element: <IssuePage />, handle: { title: 'Issue detail'} },
+            { path: 'about', element: <AboutPage />, handle: { title: 'About'} },
+            { path: '*', element: <NotFoundPage />, handle: { title: 'Page not found'} }
         ],
     },
 ])
