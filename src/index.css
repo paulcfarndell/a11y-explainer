@@ -22,3 +22,16 @@
      --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
      --font-mono: ui-monospace, "Cascadia Code", Consolas, monospace;
    }
+
+   @layer base {
+    :focus-visible {
+      outline: 3px solid var(--color-ink);
+      outline-offset: 2px;
+      box-shadow: 0 0 0 2px var(--color-focus);
+    }
+
+    [tabindex="-1"]:focus {
+      outline: none;
+      box-shadow: none;
+    }
+   }
